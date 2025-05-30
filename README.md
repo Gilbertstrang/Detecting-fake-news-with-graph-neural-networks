@@ -61,13 +61,10 @@ python figures.py
 fake_news_gnn/
 ├── README.md                      # This file
 ├── requirements.txt               # Python dependencies
-├── TECHNICAL_REPORT.md           # Detailed technical documentation
 ├── cascade_gnn_no_text.py        # Structure-only GNN model
 ├── cascade_gnn_with_text.py      # Structure + BERT GNN model
 ├── analyze_dataset.py            # Dataset analysis tools
 ├── extract_bert.py               # BERT feature extraction
-├── figures.py                     # Visualization generation
-├── model_insight_summary.py      # Model analysis tools
 ├── data/                          # Dataset directory
 │   ├── raw/                      # Raw data files
 │   ├── processed/                # Processed graph data
@@ -176,7 +173,7 @@ python figures.py
 python model_insight_summary.py
 ```
 
-## 📋 Limitations & Future Work
+##  Limitations & Future Work
 
 ### Current Limitations
 - Small dataset size (303 cascades)
@@ -185,10 +182,3 @@ python model_insight_summary.py
 - Balanced dataset assumption
 
 
-
-
-## 🙏 Acknowledgments
-
-- UPFD
-- PyTorch Geometric team
-- Hugging Face Transformers
